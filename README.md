@@ -2,6 +2,8 @@
 
 This repository is a minimal Expo project created to reproduce a **bug with `@intercom/intercom-react-native`** when used with the **old React Native architecture**.
 
+It was reported in this Intercom Community question: https://community.intercom.com/mobile-sdks-24/intercom-react-native-does-not-compile-for-expo-during-build-when-combined-with-other-packages-12960
+
 This is NOT present when using version 8.8.0 of the React Native Intercom module, and thus introduced with the upgrade to the new package.
 ## 🧱 Stack
 
