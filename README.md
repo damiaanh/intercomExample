@@ -1,6 +1,6 @@
 # Intercom Bug Reproduction (Expo + React Native)
 
-This repository is a minimal Expo project created to reproduce a **bug with `@intercom/intercom-react-native`** when used with the **old React Native architecture**.
+This repository is a minimal Expo project created to reproduce a **bug with `@intercom/intercom-react-native`** versions 9.*.* when used with the **old React Native architecture**.
 
 It was reported in this Intercom Community question: https://community.intercom.com/mobile-sdks-24/intercom-react-native-does-not-compile-for-expo-during-build-when-combined-with-other-packages-12960
 
