@@ -2,8 +2,7 @@
 
 This repository is a minimal Expo project created to reproduce a **bug with `@intercom/intercom-react-native`** when used with the **old React Native architecture**.
 
-This is NOT present when using version 8.8.0 of the React Native Intercom module.
-
+This is NOT present when using version 8.8.0 of the React Native Intercom module, and thus introduced with the upgrade to the new package.
 ## 🧱 Stack
 
 - **Expo SDK 52**
@@ -21,19 +20,22 @@ This is NOT present when using version 8.8.0 of the React Native Intercom module
    ```
    Ensure Node version ≥ 20.19.4 (required by Metro):
 
-```nvm install 20.19.4 && nvm use 20.19.4
+```
+nvm install 20.19.4 && nvm use 20.19.4
 
 ```
 
 Prebuild native projects:
 
-```npx expo prebuild --clean
+```
+npx expo prebuild --clean
 
 ```
 
 run:
 
-```yarn ios
+```
+yarn ios
 
 ```
 
@@ -64,5 +66,3 @@ When both dependencies are installed, the iOS build fails during compilation wit
 'tuple' file not found
 'utility' file not found
 ```
-
-## Questions:
