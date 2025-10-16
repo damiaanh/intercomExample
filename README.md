@@ -38,6 +38,7 @@ run:
 yarn ios
 
 ```
+assert that you can not build due to below issue.
 
 ## Bug description:
 
